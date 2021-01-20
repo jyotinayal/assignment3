@@ -2,12 +2,12 @@
 
 int main()
 {
-  //Initialize variable and rename
-   int first_num=0;
-   int second_num=0;
+  //changed variable naemes.....................
+   int number_one=0;
+   int number_two=0;
 
-    printf("Enter two operands: ");
-    scanf("%d %d", &first_num, &second_num);
-    printf("%d",  first_num + second_num);
+    printf("Enter two Numbers: ");
+    scanf("%d %d", &number_one, &number_two);
+    printf("%d",  number_one + number_two);
     return 0;
 }
